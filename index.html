@@ -9,27 +9,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="main">
-            <aside class="box-sx">
-                <div class="header-box-sx">
-                    <div class="logo"><img src="assets/img/logo.svg" alt="logo"></div>
-                    <div class="logo"><img src="assets/img/logo-small.svg" alt="logo"></div>
-                    <div class="logo">
-                        <img src="assets/img/home.svg" alt="home">
-                        <span>Home</span>
-                    </div>
-                    <div class="logo">
-                        <img src="assets/img/search.svg" alt="ricerca">
-                        <span>Cerca</span>
-                    </div>
-                    <div class="logo">
-                        <img src="assets/img/libreria.svg" alt="Libreria">
-                        <span>La tua libreria</span>
-                    </div>
-                </div>
-            </aside>
-        </div>
-    </div>
+    <div class="app-wrapper">
+        <main class="flex-container">
+          <nav id="nav-menu" class="flex-container">
+            <div class="logo">
+                <img src="assets/img/logo.svg" alt="Logo Spotify"/>
+              </div>
+              <ul class="main-menu">
+                <li class="current">
+                  <a href="#">
+                    <img class="home" src="assets/img/home.svg" alt="Home"/>
+                    Home
+                  </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <img src="assets/img/libreria.svg" alt="icona libreria"/>
+                      La tua libreria
+                    </a>
+                  </li>
+                </ul>
+          </nav>
+        </main>
+    </div>          
 </body>
 </html>
