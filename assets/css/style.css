@@ -36,12 +36,12 @@ a{
     width: 170px;
     padding: 1.5rem;
 }
-#nav-menu ul, .main-menu li, .current{
-    border-left: 6px solid #adff2f;
-}
-#nav-menu ul, .main-menu li, .current a{
+#nav-menu ul.main-menu li.current a{
     color: white;
     font-size: 1rem;
+}
+#nav-menu ul.main-menu li.current{
+    border-left: 6px solid #adff2f;
 }
 #nav-menu h2{
     font-size: 14px;
@@ -50,14 +50,14 @@ a{
     margin-bottom: 1rem;
     padding: 20px;
 }
-#nav-menu ul .main-menu li a img{
+#nav-menu ul.main-menu li a img{
     width: 2rem;
     display: inline-block;
     margin-right: 10px;
     margin-left: 15px;
     vertical-align: middle;
 }
-#nav-menu ul .playlist-menu li .create-item span{
+#nav-menu ul.playlist-menu li.create-item span{
     font-size: 35px;
     background-color: #fff;
     color: #000;
