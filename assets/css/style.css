@@ -14,6 +14,11 @@ body{
     height: 100vh;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .flex-container{
     display: flex;
 }
@@ -49,4 +54,54 @@ body{
     margin-right: 10px;
     margin-left: 15px;
     vertical-align: middle;
+}
+#nav-menu ul .playlist-menu li .create-item span{
+    font-size: 35px;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#nav-menu .user-area {
+    margin-top: 13rem;
+    margin-right: 5rem;
+}
+#nav-menu .user-area a.install-app img {
+    width: 1.5rem;
+    display: inline-block;
+    margin-right: 1;
+    vertical-align: middle;
+}
+#nav-menu .user-area hr {
+    margin: 0.8rem auto;
+    border: none;
+    border-top: 1px solid #a3a3a3;
+    width: 12rem;
+}
+#nav-menu .user-area a.user-profile {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+nav .user-area a.user-profile span {
+    background-color: #808080;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+.main-menu li {
+    padding-top: 10px;
+}
+
+ul.playlist-menu li {
+    padding: 0.5rem 1.3rem;
 }
