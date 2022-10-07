@@ -177,6 +177,15 @@ ul.playlist-menu li {
     margin-top: 10px;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
+.margin-right {
+    width: 200px;
+}
+
 footer {
     background-color: #282828;
     height: 100px;
@@ -341,7 +350,7 @@ footer .footer-player .bar-track .bar.full {
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 480px) {
-    /*SMARTPHONE*/
+/*SMARTPHONE*/
   
     #nav-menu ul.main-menu li a img {
       width: 1.5rem;
