@@ -274,7 +274,7 @@ footer .footer-player .bar-track .bar.full {
     width: 20%;
 }
 
-#navigation-menu ul.main-menu li a:hover {
+#nav-menu ul.main-menu li a:hover {
     color: #fff;
   }
   
@@ -300,15 +300,15 @@ footer .footer-player .bar-track .bar.full {
     text-decoration: underline;
   }
   
-  #navigation-menu > div.mobilelogo {
+  #nav-menu > div.mobilelogo {
     display: none;
   }
   
-  #navigation-menu > ul.playlist-menu {
+  #nav-menu > ul.playlist-menu {
     flex: 1;
   }
   
-  #navigation-menu .user-area a.install-app:hover {
+  #nav-menu .user-area a.install-app:hover {
     color: #fff;
   }
   
@@ -343,7 +343,7 @@ footer .footer-player .bar-track .bar.full {
 @media only screen and (max-width: 480px) {
     /*SMARTPHONE*/
   
-    #navigation-menu ul.main-menu li a img {
+    #nav-menu ul.main-menu li a img {
       width: 1.5rem;
     }
   
@@ -351,7 +351,7 @@ footer .footer-player .bar-track .bar.full {
       display: none;
     }
   
-    #navigation-menu {
+    #nav-menu {
       width: 60px;
       color: black;
      
@@ -363,14 +363,14 @@ footer .footer-player .bar-track .bar.full {
       padding: 70px 20px 20px;
     }
   
-    #navigation-menu ul.main-menu li.current a {
+    #nav-menu ul.main-menu li.current a {
       color: black;
     }
-    #navigation-menu ul.main-menu li.current {
+    #nav-menu ul.main-menu li.current {
       border-left: 0px solid;
     }
   
-    #navigation-menu .logo img {
+    #nav-menu .logo img {
       display: none;
     }
   
@@ -392,7 +392,7 @@ footer .footer-player .bar-track .bar.full {
   }
   
   
-  #navigation-menu > div.mobilelogo {
+  #nav-menu > div.mobilelogo {
     display: block;
     width: 1.5rem;
       margin-left: 1rem;
@@ -475,13 +475,13 @@ footer .footer-player .bar-track .bar.full {
     margin-left: 1rem;
   }
   
-  #navigation-menu > div.user-area {
+  #nav-menu > div.user-area {
     margin: 0;
     margin-bottom: 15px;
   }
   
   
-  #navigation-menu .user-area {
+  #nav-menu .user-area {
    
     margin-left: 0.1rem;
     font-size: 5px;
@@ -489,22 +489,22 @@ footer .footer-player .bar-track .bar.full {
     color: #fff;
   }
   
-  #navigation-menu .user-area hr {
+  #nav-menu .user-area hr {
     width: 10px;
     margin-left: 10px;
   }
   
-  #navigation-menu .user-area a.user-profile {
+  #nav-menu .user-area a.user-profile {
     font-size: 3px;
     color: black;
     margin-left: 5px;
   }
   
-  }
+}
+
 /*TABLET*/
-  
   @media only screen and (min-width: 482px) and (max-width: 780px) {
-    #navigation-menu .user-area {
+    #nav-menu .user-area {
       margin-top: 5rem;
       margin-left: 0.5rem;
   }
